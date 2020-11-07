@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  /* background: rgba(0, 0, 0, 0.7); */
+  background: f4f6ff;
+  padding: 20px;
+}
+
+.module {
+  font-weight: bold;
+}
+
+.change-color {
+  color: white;
+}
+
+p.header_text {
+  font-size: 20px;
+}
+
+hr {
+  border: 2 px solid;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+
+.jumbotron {
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  /*  background-color: #fff; */
+  border-radius: 20px;
+}
+
+.jumbotron-fluid.container {
+  background: black;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.header_text {
+  text-align: justify;
+  font-size: 30px;
+}
+
+.d-block {
+  padding: 10px;
+  height: 100vh;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../img/right-arrow.svg);
+  margin-left: 100px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/left-arrow.svg);
+  margin-right: 100px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+#carouselExampleIndicators {
+  border: 2px solid white;
+  border-radius: 20px;
+  background: #343a40;
+}
+
+@media screen and (max-width: 768px) {
+  .module {
+    font-size: 30px;
+  }
+
+  .header_text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .d-block {
+    height: 85vh;
+  }
+
+  .text-muted {
+    font-size: 16px;
+  }
+
+  .module {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .header_text {
+    font-size: 20px;
+  }
+
+  body {
+    padding: 50px;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(../img/right-arrow.svg);
+    margin-left: 5px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(../img/left-arrow.svg);
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .module {
+    font-size: 12px;
+  }
+
+  .d-block {
+    height: 50vh;
+  }
+
+  .text-muted {
+    font-size: 12px;
+  }
+
+  .header_text {
+    font-size: 14px;
+  }
+}
